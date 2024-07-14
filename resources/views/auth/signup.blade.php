@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup</title>
-    <!-- Include your external CSS libraries if needed -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body>
+@extends('layouts.app')
+@section('content')
+@section('title', 'Signup')
+<div>
     <div class="relative flex h-full w-full">
         <div class="h-screen w-1/2 bg-black">
             <div class="mx-auto flex h-full w-2/3 flex-col justify-center text-white xl:w-1/2">
@@ -60,6 +51,6 @@
             <img src="https://images.pexels.com/photos/2523959/pexels-photo-2523959.jpeg" class="h-full w-full" />
         </div>
     </div>
-</body>
+</div>
 
-</html>
+@endsection
