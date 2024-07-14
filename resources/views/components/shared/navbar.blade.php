@@ -1,4 +1,4 @@
-<div class="navbar">
+<div class="navbar ">
     <div class="navbar-start">
         <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -12,7 +12,7 @@
         </div>
         <!-- <a class="btn btn-ghost text-xl">Glowix</a> -->
         <!-- <p>Flavourist<span>X</span></p> -->
-        <div class="flex items-center text-xl">
+        <div class="flex items-center text-xl pl-10">
             <h3 class="font-bold ">Flavourist</h3>
             <h3 class="font-bold  text-[#fcae04]">X</h3>
         </div>

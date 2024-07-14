@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="max-w-screen-2xl mx-auto bg-black text-white">
+    <div class="max-w-screen-2xl mx-auto bg-[#14181b] text-white">
         @include('components/shared/navbar')
         @yield('content')
         @include('components/shared/footer')

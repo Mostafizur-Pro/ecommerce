@@ -2,7 +2,7 @@
     <div class="flex justify-between gap-10 ml-5 lg:gap-10">
         <aside>
             <a href="" class="w-40  flex-shrink-0 flex items-center justify-start ">
-                <img alt="logo" src="/assets/logo/logo.png" />
+                <img alt="logo" src="/assets/contact/contact-cover.png" />
             </a>
             <p>Our Journey from 2022</p>
         </aside>
