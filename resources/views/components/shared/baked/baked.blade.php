@@ -1,4 +1,4 @@
-<section class="relative bg-[#fcae04] py-8 md:py-10 lg:py-[60px], max-sm:px-3 m-5 rounded-xl my-10">
+<section class="relative bg-[#F47500] py-8 md:py-10 lg:py-[60px], max-sm:px-3 m-5 rounded-xl my-10">
     <img class="absolute w-60  bottom-0 right-0 transform " alt="logo" src="{{ asset('assets/shared/kok-kok-kokok.png') }}" />
     <div class=" rounded-xl m-5 ">
         <div class="grid grid-cols-12 md:items-center gap-4 sm:gap-6">

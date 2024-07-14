@@ -15,8 +15,8 @@
                     </svg>
                     Home
                 </a>
-                <a class="text-lg text-[#fcae04]" href="#slide4">❯❯</a>
-                <p class="text-[#fcae04] font-bold">@yield('cover', 'Default Title')</p>
+                <a class="text-lg text-[#F47500]" href="#slide4">❯❯</a>
+                <p class="text-[#F47500] font-bold">@yield('cover', 'Default Title')</p>
             </div>
         </div>
     </div>

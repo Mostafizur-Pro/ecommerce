@@ -4,7 +4,9 @@
 
 <div>
     @include('components/home/banner')
-    Home Page
+    @include('components/home/featured')
+    @include('components/shared/baked/baked')
+
 
 </div>
 

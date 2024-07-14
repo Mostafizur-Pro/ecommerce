@@ -14,7 +14,7 @@
         <!-- <p>Flavourist<span>X</span></p> -->
         <div class="flex items-center text-xl pl-10">
             <h3 class="font-bold ">Flavourist</h3>
-            <h3 class="font-bold  text-[#fcae04]">X</h3>
+            <h3 class="font-bold  text-[#F47500]">X</h3>
         </div>
     </div>
     <div class="navbar-center hidden lg:flex">

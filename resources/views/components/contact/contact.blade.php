@@ -66,7 +66,7 @@
                         Messages</label>
                     <textarea rows="7" name="textarea" id="textarea" placeholder="Enter your messages" class="border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]"></textarea>
                 </div>
-                <button class="w-full p-3 rounded-2xl font-semibold bg-[#fcae04]">Submit Now</button>
+                <button class="w-full p-3 rounded-2xl font-semibold bg-[#F47500]">Submit Now</button>
             </form>
         </div>
     </div>

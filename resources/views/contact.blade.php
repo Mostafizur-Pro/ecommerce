@@ -9,6 +9,6 @@
     @include('components/shared/baked/baked')
 </div>
 
-Contact Page
+
 
 @endsection
