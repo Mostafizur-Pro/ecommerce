@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 <div>
-
+    @include('components/home/banner')
     Home Page
 
 </div>

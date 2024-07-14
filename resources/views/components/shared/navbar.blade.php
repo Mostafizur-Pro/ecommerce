@@ -6,14 +6,19 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
                 </svg>
             </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-gray-900 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                 @include('components/shared/navbar/itemNavbar')
             </ul>
         </div>
-        <a class="btn btn-ghost text-xl">eCommerce</a>
+        <!-- <a class="btn btn-ghost text-xl">Glowix</a> -->
+        <!-- <p>Flavourist<span>X</span></p> -->
+        <div class="flex items-center text-xl">
+            <h3 class="font-bold ">Flavourist</h3>
+            <h3 class="font-bold  text-[#fcae04]">X</h3>
+        </div>
     </div>
     <div class="navbar-center hidden lg:flex">
-        <ul  class="menu menu-horizontal px-1 ">
+        <ul class="menu menu-horizontal px-1 ">
             @include('components/shared/navbar/itemNavbar')
         </ul>
     </div>
