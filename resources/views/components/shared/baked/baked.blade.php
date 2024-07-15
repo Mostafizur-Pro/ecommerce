@@ -9,7 +9,7 @@
                     <div class="">
                         <div class="inline-block border-[2px] border-nw40 hover:border-nc10 p-1 ">
                             <a href="../cookbooks.html" class="flex items-center group duration-700">
-                                <span class="py-2 px-4 lg:px-6 md:text-lg bg-nw40 hover:bg-transparent text-nb30 hover:text-nw40 duration-500 font-medium">Explore
+                                <span class="py-2 px-4 lg:px-6 md:text-lg bg-white hover:bg-transparent text-[#F47500] hover:text-white duration-500 font-medium">Explore
                                     All</span>
                             </a>
                         </div>

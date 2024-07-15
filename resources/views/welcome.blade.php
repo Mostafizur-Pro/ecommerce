@@ -4,6 +4,7 @@
 
 <div>
     @include('components/home/banner')
+
     @include('components/home/featured')
     @include('components/recipes/product')
     @include('components/shared/baked/baked')

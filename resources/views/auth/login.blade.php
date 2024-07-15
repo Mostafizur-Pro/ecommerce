@@ -21,16 +21,15 @@
                     </fieldset>
                 </div>
                 <div class="mt-10">
-                    <form>
+                    <form action="{{ route('login') }}" method="POST">
+                        @csrf
                         <div>
                             <label class="mb-2.5 block font-extrabold" for="email">Email</label>
-                            <!-- <input type="email" id="email" class="inline-block w-full rounded-full bg-white p-2.5 leading-none text-black placeholder-indigo-900 shadow placeholder:opacity-30" placeholder="mail@user.com" /> -->
-                            <input type="email" id="email" class="w-full border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]" placeholder="mail@user.com">
+                            <input type="email" id="email" name="email" class="w-full border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]" placeholder="mail@user.com" required>
                         </div>
                         <div class="mt-4">
-                            <label class="mb-2.5 block font-extrabold" for="email">Password</label>
-                            <!-- <input type="password" id="email" class="inline-block w-full rounded-full bg-white p-2.5 leading-none text-black placeholder-indigo-900 shadow" /> -->
-                            <input type="password" id="email" class="w-full border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]" placeholder="password">
+                            <label class="mb-2.5 block font-extrabold" for="password">Password</label>
+                            <input type="password" id="password" name="password" class="w-full border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]" placeholder="password" required>
                         </div>
                         <div class="mt-4 flex w-full flex-col justify-between sm:flex-row">
                             <div>
@@ -41,7 +40,7 @@
                             </div>
                         </div>
                         <div class="my-10">
-                            <button class="w-full rounded-full bg-orange-600 p-5 hover:bg-orange-800">Login</button>
+                            <button type="submit" class="w-full rounded-full bg-orange-600 p-5 hover:bg-orange-800">Login</button>
                         </div>
                     </form>
                 </div>
