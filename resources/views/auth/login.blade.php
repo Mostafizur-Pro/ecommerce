@@ -2,6 +2,9 @@
 @section('content')
 @section('title', 'Login')
 <div>
+    <!-- Logger Start -->
+    @include('components.logger.logger')
+    <!-- Logger End -->
     <div class="relative flex h-full w-full">
         <div class="h-screen w-1/2 bg-black">
             <div class="mx-auto flex h-full w-2/3 flex-col justify-center text-white xl:w-1/2">
@@ -21,16 +24,15 @@
                     <form>
                         <div>
                             <label class="mb-2.5 block font-extrabold" for="email">Email</label>
-                            <input type="email" id="email" class="inline-block w-full rounded-full bg-white p-2.5 leading-none text-black placeholder-indigo-900 shadow placeholder:opacity-30" placeholder="mail@user.com" />
+                            <!-- <input type="email" id="email" class="inline-block w-full rounded-full bg-white p-2.5 leading-none text-black placeholder-indigo-900 shadow placeholder:opacity-30" placeholder="mail@user.com" /> -->
+                            <input type="email" id="email" class="w-full border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]" placeholder="mail@user.com">
                         </div>
                         <div class="mt-4">
                             <label class="mb-2.5 block font-extrabold" for="email">Password</label>
-                            <input type="password" id="email" class="inline-block w-full rounded-full bg-white p-2.5 leading-none text-black placeholder-indigo-900 shadow" />
+                            <!-- <input type="password" id="email" class="inline-block w-full rounded-full bg-white p-2.5 leading-none text-black placeholder-indigo-900 shadow" /> -->
+                            <input type="password" id="email" class="w-full border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]" placeholder="password">
                         </div>
                         <div class="mt-4 flex w-full flex-col justify-between sm:flex-row">
-                            <!-- Remember me -->
-                            <!-- <div><input type="checkbox" id="remember" /><label for="remember" class="mx-2 text-sm">Remember me</label></div> -->
-                            <!-- Forgot password -->
                             <div>
                                 <a href="#" class="text-sm hover:text-gray-200">Forgot password</a>
                             </div>

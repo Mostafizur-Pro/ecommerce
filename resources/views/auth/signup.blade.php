@@ -9,27 +9,25 @@
                     <p class="text-2xl">Signup|</p>
                     <p>please signup to continue|</p>
                 </div>
-                <!-- <div class="my-6">
-                    <button class="flex w-full justify-center rounded-3xl border-none bg-white p-1 text-black hover:bg-gray-200 sm:p-2"><img src="https://freesvg.org/img/1534129544.png" class="mr-2 w-6 object-fill" />Sign in with Google</button>
-                </div>
-                <div>
-                    <fieldset class="border-t border-solid border-gray-600">
-                        <legend class="mx-auto px-2 text-center text-sm">Or login via our secure system</legend>
-                    </fieldset>
-                </div> -->
+
                 <div class="mt-10">
-                    <form>
+                    <form action="{{ url('signup') }}" method="POST">
+                        @csrf
                         <div class="mt-4">
-                            <label class="mb-2.5 block font-extrabold" for="text">Name</label>
-                            <input type="text" id="text" class="inline-block w-full rounded-full bg-white p-2.5 leading-none text-black placeholder-indigo-900 shadow placeholder:opacity-50" placeholder="name" />
+                            <label class="mb-2.5 block font-extrabold" for="name">Name</label>
+                            <input type="text" id="name" name="name" class="w-full border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]" placeholder="name" required>
+                        </div>
+                        <div class="mt-4">
+                            <label class="mb-2.5 block font-extrabold" for="number">Number</label>
+                            <input type="text" id="number" name="number" class="w-full border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]" placeholder="Number" required>
                         </div>
                         <div class="mt-4">
                             <label class="mb-2.5 block font-extrabold" for="email">Email</label>
-                            <input type="email" id="email" class="inline-block w-full rounded-full bg-white p-2.5 leading-none text-black placeholder-indigo-900 shadow placeholder:opacity-50" placeholder="mail@user.com" />
+                            <input type="email" id="email" name="email" class="w-full border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]" placeholder="mail@user.com" required>
                         </div>
                         <div class="mt-4">
-                            <label class="mb-2.5 block font-extrabold" for="email">Password</label>
-                            <input type="password" id="email" class="inline-block w-full rounded-full bg-white p-2.5 leading-none text-black placeholder-indigo-900 shadow placeholder:opacity-50" placeholder="password" />
+                            <label class="mb-2.5 block font-extrabold" for="password">Password</label>
+                            <input type="password" id="password" name="password" class="w-full border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]" placeholder="password" required>
                         </div>
                         <div class="mt-4 flex w-full flex-col justify-between sm:flex-row">
                             <div>
@@ -40,9 +38,8 @@
                             </div>
                         </div>
                         <div class="my-10">
-                            <button class="w-full rounded-full bg-orange-600 p-5 hover:bg-orange-800">Signup</button>
+                            <button type="submit" class="w-full rounded-full bg-orange-600 p-5 hover:bg-orange-800">Signup</button>
                         </div>
-
                     </form>
                 </div>
             </div>
@@ -52,5 +49,4 @@
         </div>
     </div>
 </div>
-
 @endsection
