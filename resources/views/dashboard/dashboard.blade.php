@@ -5,9 +5,6 @@
 <div>
     @section('cover', 'Dashboard')
     @include('components/cover/cover')
-
 </div>
-
-
 
 @endsection

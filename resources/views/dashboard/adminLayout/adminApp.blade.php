@@ -11,20 +11,23 @@
 </head>
 
 <body>
-    <div class="grid lg:grid-cols-4 gap-5">
-        <div class="hidden lg:block lg:col-span-1">
-            @include('dashboard.shared.sidebar')
-        </div>
+    <div class="max-w-screen-2xl mx-auto bg-[#14181b] text-white">
+        <div class="grid lg:grid-cols-4 gap-5">
+            <div class="hidden lg:block lg:col-span-1">
+                @include('dashboard.shared.sidebar')
+            </div>
 
-        <div class="lg:col-span-2">
-            @include('dashboard.shared.topbar')
-            @yield('admin')
-        </div>
+            <div class="lg:col-span-2">
+                @include('dashboard.shared.topbar')
+                @yield('admin')
+            </div>
 
-        <div class="hidden lg:block lg:col-span-1">
-            @include('dashboard.shared.sidebar')
+            <div class="hidden lg:block lg:col-span-1">
+                <!-- @include('dashboard.shared.sidebar') -->
+            </div>
         </div>
     </div>
+
 </body>
 
 </html>
