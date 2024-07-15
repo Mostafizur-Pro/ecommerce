@@ -1,14 +1,13 @@
 @extends('layouts.app')
 @section('content')
-@section('title', 'Home')
+@section('title', 'Recipes')
 
 <div>
-    @include('components/home/banner')
-    @include('components/home/featured')
+    @section('cover', 'Recipes')
+    @include('components/cover/cover')
     @include('components/recipes/product')
+    @include('components/recipes/instagramPost')
     @include('components/shared/baked/baked')
-
-
 </div>
 
 @endsection
