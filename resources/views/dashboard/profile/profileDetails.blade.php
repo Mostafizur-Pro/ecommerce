@@ -2,7 +2,8 @@
     <div class=" h-screen">
         <!-- Page Header -->
         <!-- Page Header -->
-        @include('dashboard/profile/profileHeader')
+        @section('dashboardCover', 'Profile')
+        @include('dashboard/profileHeader')
         <!-- Page Header Close -->
         <!-- Page Header Close -->
 

@@ -1,12 +1,12 @@
 <div class="md:flex block items-center justify-between mb-6 mt-[2rem]  ">
     <div class="my-auto">
-        <h5 class="page-title text-2xl font-medium text-defaulttextcolor mb-0">Profile</h5>
+        <h5 class="page-title text-2xl font-medium text-defaulttextcolor mb-0">@yield('dashboardCover', 'Default Title')</h5>
         <nav>
             <ol class="flex items-center whitespace-nowrap min-w-0">
                 <li class="text-lg"> <a class="flex items-center text-white hover:text-white" href="/dashboard"> Dashboard
                     </a> </li>
                 <a class="text-lg text-[#F47500] px-2" href="#slide4">❯❯</a>
-                <li class="text-lg"> <a class="flex items-center text-[#F47500]" href="/dashboard/profile">Profile
+                <li class="text-lg"> <a class="flex items-center text-[#F47500]" href="/dashboard/profile">@yield('dashboardCover', 'Default Title')
                     </a> </li>
             </ol>
         </nav>

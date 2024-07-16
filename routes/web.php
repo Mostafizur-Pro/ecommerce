@@ -8,8 +8,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/dashboard', function () {
     return view('dashboard/dashboard');
 });
-Route::get('/dashboard/profile', function(){
+Route::get('/dashboard/profile', function () {
     return view('dashboard/profile/profile');
+});
+Route::get('//dashboard/commerce/add-products', function () {
+    return view('dashboard/eCommerce/addProduct/addProduct');
 });
 
 Route::get('/', [PublicController::class, 'home'])->name('home');

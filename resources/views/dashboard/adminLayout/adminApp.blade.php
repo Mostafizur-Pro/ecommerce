@@ -17,13 +17,13 @@
                 @include('dashboard.shared.sidebar')
             </div>
 
-            <div class="lg:col-span-2">
+            <div class="lg:col-span-3 mx-5">
                 @include('dashboard.shared.topbar')
                 @yield('admin')
             </div>
 
-            <div class="hidden lg:block lg:col-span-1">
-                
+            <div class="block lg:hidden col-span-1">
+                hi
             </div>
         </div>
     </div>
