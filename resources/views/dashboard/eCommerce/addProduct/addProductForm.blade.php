@@ -2,7 +2,7 @@
     <div class="xxl:col-span-6 xl:col-span-12 lg:col-span-12 md:col-span-6 col-span-12">
         <div class="box !shadow-none mb-0 !border-0">
             <div class="box-body !p-0">
-                <form method="POST" enctype="multipart/form-data">
+                <form method="POST" enctype="multipart/form-data" action="{{ route('products.store') }}">
                     @csrf
                     <div class="grid grid-cols-12 gap-4">
                         <div class="xl:col-span-12 col-span-12">
@@ -40,8 +40,8 @@
                             </select>
                         </div>
                         <div class="xl:col-span-12 col-span-12">
-                            <label class="mb-2.5 block font-bold" for="product_image">Product Image</label>
-                            <input type="file" id="product_image" name="product_images[]" class="image-input mb-2 w-full border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]" accept="image/*">
+                            <label class="mb-2.5 block font-bold" for="product_images">Product Image</label>
+                            <input type="file" id="product_images" name="product_images[]" class="image-input mb-2 w-full border border-[rgba(77,71,55,0.50)] rounded-lg p-2 placeholder:opacity-70 bg-[#25292C]" accept="image/*">
                             <div id="additional-images"></div>
                         </div>
                         <div class="xl:col-span-12 col-span-12">

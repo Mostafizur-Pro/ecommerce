@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\SignupController;
+use App\Http\Controllers\Product\ProductController;
 use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
 
@@ -11,9 +12,12 @@ Route::get('/dashboard', function () {
 Route::get('/dashboard/profile', function () {
     return view('dashboard/profile/profile');
 });
-Route::get('//dashboard/commerce/add-products', function () {
-    return view('dashboard/eCommerce/addProduct/addProduct');
-});
+// Route::get('/dashboard/commerce/add-products', function () {
+//     return view('dashboard/eCommerce/addProduct/addProduct');
+// });
+
+Route::get('/dashboard/commerce/add-products', [ProductController::class, 'create'])->name('products');
+Route::post('/products', [ProductController::class, 'store'])->name('products.store');
 
 Route::get('/', [PublicController::class, 'home'])->name('home');
 Route::get('/contact', [PublicController::class, "contact"])->name('contact');
