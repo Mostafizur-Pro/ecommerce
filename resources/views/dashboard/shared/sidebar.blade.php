@@ -33,7 +33,7 @@
                     </summary>
                     <ul x-show="open" id="dropdown-example" class="py-2 space-y-2">
                         <li>
-                            <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Products</a>
+                            <a href="/dashboard/commerce/products" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Products</a>
                         </li>
                         <li>
                             <a href="/dashboard/commerce/add-products" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Add Product</a>

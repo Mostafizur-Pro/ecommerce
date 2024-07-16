@@ -16,6 +16,7 @@ Route::get('/dashboard/profile', function () {
 //     return view('dashboard/eCommerce/addProduct/addProduct');
 // });
 
+Route::get('/dashboard/commerce/products', [ProductController::class, 'show'])->name('product.show');
 Route::get('/dashboard/commerce/add-products', [ProductController::class, 'create'])->name('products');
 Route::post('/products', [ProductController::class, 'store'])->name('products.store');
 
