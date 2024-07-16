@@ -8,6 +8,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/dashboard', function () {
     return view('dashboard/dashboard');
 });
+Route::get('/dashboard/profile', function(){
+    return view('dashboard/profile/profile');
+});
 
 Route::get('/', [PublicController::class, 'home'])->name('home');
 Route::get('/contact', [PublicController::class, "contact"])->name('contact');

@@ -1,5 +1,5 @@
 <div class="bg-[#25292C] rounded-xl m-5 text-white px-10 relative border border-[rgba(77,71,55,0.60)]">
-    <img class="absolute w-60 rounded-r-xl bottom-0 right-0 transform" alt="logo" src="{{ asset('assets/contact/contact-cover.png') }}" />
+    <img class="absolute w-60 rounded-r-xl bottom-0 right-0 transform" alt="logo" src="{{ asset('assets/cover/cover.png') }}" />
     <div class="container mx-auto flex flex-col md:flex-row items-center ">
         <div class="flex flex-col w-full lg:w-1/3 justify-center items-start py-8">
             <h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug md:mb-2">@yield('cover', 'Default Title')</h2>
